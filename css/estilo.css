@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #F8F8FF;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.principal{
+    width: 90%;
+    margin: 0 auto;
+}
+.box{
+    max-width:480px;
+    min-width:240px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:160pt;   
+    box-shadow: 0 0 4px #808080;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid #0080FF 1px;
+    transition-duration: 1s;
+    transition-delay: 0.5;
+    padding: 16px;
+}
+#login,link{
+    text-decoration: none;
+    color:#0080FF; 
+    
+}
+ #login:hover{
+    color: #2E9AFE;
+    opacity: 0.6;
+    text-align: center;
+    
+}
+ #top-login{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top:1px;
+    padding-bottom: 1px;
+    font-size:38pt;
+    display: block;
+    background-color: #FAFAFA;
+    color:#0080FF;      
+ }
+
+ #input-text{
+    width: 400px;
+    height:32px;
+    margin-top:8px;
+    margin-bottom: 16px;
+    border: 1px solid #000;
+    background-color: white;
+    box-shadow: 0 0 1px #000;
+    font-size: 18px;
+    padding: 4px;
+    
+}
+#input-btn{
+    width: 400px;
+    height:32px;
+    display: block;
+    margin-top:32px;
+    margin-bottom: 32px;
+    padding: 4px;
+    border: 1px solid #58ACFA;
+    background-color: #58ACFA;
+    box-shadow: 0 0 3px #000;
+    text-align: center;
+    font-size: 24px;
+    text-decoration: none;
+    color: white; 
+       
+}
+
+
+#input-btn:hover{
+    background-color:#58ACFA;
+    opacity: 0.8;
+}
+#logar{
+    
+    background-color: transparent;
+    font-size:24p;
+}
+
+ .formulario{
+    display: block;
+    background-color: #FAFAFA;
+    width: 100%; 
+    margin: 0 auto;
+    padding-top: 24px;
+ }
+ #form {
+     display: inline-block;
+     width: 400px;
+     margin-left: 40px;
+     margin-right: 40px;
+     background-color: #FAFAFA;
+ }
+ p{
+    margin: 0;
+    padding: 0;
+    width: 160pt;
+}
+
+hr{
+   display: block;
+   width: 400px;
+   height: 2px;
+   border: none;
+   margin-left: 40px;
+   background-color: #FAFAFA;
+   background-image: linear-gradient(0deg, #1E90FF, transparent);      
+}/*Formatando checkbox*/
+
+span{
+     margin-left: 8px;
+}
+::placeholder{
+    padding-left:30px;
+    opacity: 0.4;
+}
